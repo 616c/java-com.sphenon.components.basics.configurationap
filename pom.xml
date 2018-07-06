@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <name>ConfigurationAnnotationProcessor</name>
+  <url>http://www.sphenon.com</url>
+
+  <artifactId>configurationap</artifactId>
+  <groupId>com.sphenon.components.basics</groupId>
+  <version>1.0.0</version>
+
+  <packaging>jar</packaging>
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>sphenon-module</artifactId>
+    <groupId>com.sphenon</groupId>
+    <version>1.0.0</version>
+    <relativePath></relativePath>
+  </parent>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.sun</groupId>
+      <artifactId>tools</artifactId>
+      <version>1.7</version>
+      <scope>system</scope>
+      <systemPath>${toolsjar}</systemPath>
+    </dependency>      
+  </dependencies>
+</project>
